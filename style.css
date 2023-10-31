@@ -59,3 +59,11 @@ html::-webkit-scrollbar-thumb{
     align-items: center;
     border-radius: .5rem;
 }
+.header .header-1 .search-form input{
+    font: size 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+
+}
