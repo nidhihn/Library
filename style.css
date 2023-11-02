@@ -184,6 +184,9 @@ body{
     width: 90%;
     box-shadow: var(--box-shadow);
   }
+  .header .header-1 .search-form.active{
+    top: 115%;
+  }
 }
 @media(max-width:450px){
     html{
