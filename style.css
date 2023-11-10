@@ -157,8 +157,9 @@ body{
     height: 100%;
     width: 100%;
 }
-in-form-container .active{
+.login-form-container.active{
     right: 0;
+    
 }
 .login-form-container form{
     background: #fff;
