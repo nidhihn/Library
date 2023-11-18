@@ -34,6 +34,9 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background: var(--black);
 }
+section{
+    padding: 5rem 9%;
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -222,7 +225,17 @@ body{
     color: var(--black);
     cursor: pointer;
 }
-
+.home{
+    background:url(../library/backimage.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
 
 
@@ -267,6 +280,9 @@ body{
     }
     .header .header-1{
         padding: 2rem;
+    }
+    section{
+        padding: 3rem 2rem;
     }
 }
 @media(max-width:768px){
