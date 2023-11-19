@@ -236,6 +236,21 @@ body{
     flex-wrap: wrap;
     gap: 1.5rem;
 }
+.home .row .content{
+    flex: 1 1 42rem;
+}
+.home .row .books-slider{
+    flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.home .row .books-slider a img{
+      height: 25rem;
+}
+.home .row .books-slider a:hover img{
+     transform: scale(.9);
+}
+
 
 
 
