@@ -351,6 +351,7 @@ body{
   .home .row .content h3{
     font-size: 3.5rem;
   }
+  
 }
 @media(max-width:450px){
     html{
